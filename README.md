@@ -4,7 +4,7 @@
 
 Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** also grants access for participants to engage and collaborate with a community of like-minded web developers. Through various projects, participants can explore new concepts, receive feedback, and develop valuable connections. This challenge is not just a journey for improving technical skills but also for personal development, creativity, and connectivity within the dynamic web development ecosystem.
 
-Link to Learn Another Language for Web Developers: [https://www.geekshelp.in/p/html-css-projects_5.html](https://www.geekshelp.in/p/html-css-projects_5.html)
+Link to Learn Projects for Web Developers: [https://www.geekshelp.in/p/html-css-projects_5.html](https://www.geekshelp.in/p/html-css-projects_5.html)
 
 **DAY 1** : Responsive Navbar Using HTML and CSS
 
