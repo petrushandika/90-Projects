@@ -18,3 +18,8 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 
 **DAY 7** : Login Form Using HTML and CSS
 
+**DAY 8** : Create a Simple Product Card Using HTML and CSS
+
+**DAY 9** : Our Team Page Design Using HTML and CSS
+
+**DAY 10** : Animated Navigation Bar in HTML and CSS
