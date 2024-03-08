@@ -52,22 +52,3 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 | 30  |                                 |
 </td></tr></table>
 
-**DAY 1** : Responsive Navbar Using HTML and CSS
-
-**DAY 2** : Animated Login Form Using HTML and CSS
-
-**DAY 3** : User Profile Card Using HTML, CSS, and JavaScript
-
-**DAY 4** : Contact Form Using HTML and CSS
-
-**DAY 5** : Responsive Pricing Card Using HTML and CSS
-
-**DAY 6** : 3D Button Effects Using HTML and CSS
-
-**DAY 7** : Login Form Using HTML and CSS
-
-**DAY 8** : Create a Simple Product Card Using HTML and CSS
-
-**DAY 9** : Our Team Page Design Using HTML and CSS
-
-**DAY 10** : Animated Navigation Bar in HTML and CSS
