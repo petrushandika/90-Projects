@@ -42,7 +42,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
-    padding: 0 30px 30px;
+    padding: 0 30px;
     visibility: hidden;
     transition: transform 0.5s;
 }
@@ -81,7 +81,7 @@
     border: transparent;
     border-radius: 25px;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .ok-button:hover{
