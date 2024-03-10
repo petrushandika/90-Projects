@@ -26,7 +26,7 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 | Day |                Name             |
 | --- | :-----------------------------: |
 | 11  |     Popup Menu                  |
-| 12  |     Sidabar Menu                |
+| 12  |     Sidebar Menu                |
 | 13  |                                 |
 | 14  |                                 |
 | 15  |                                 |
