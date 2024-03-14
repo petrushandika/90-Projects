@@ -27,9 +27,9 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 | --- | :-----------------------------: |
 | 11  |     Popup Menu                  |
 | 12  |     Sidebar Menu                |
-| 13  |                                 |
-| 14  |                                 |
-| 15  |                                 |
+| 13  |     Flipping Card               |
+| 14  |     Responsive Footer           |
+| 15  |     Student Registration Form   |
 | 16  |                                 |
 | 17  |                                 |
 | 18  |                                 |
