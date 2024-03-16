@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: linear-gradient(135deg, #3a5ac9, #18c4bf);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.container label {
+    color: #fff;
+}
+
+.container input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.container p {
+    color: #fff;
+}
+
+.input-contact {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.input-contact input {
+    margin-right: 10px;
+}
+
+.input-contact input[type="radio"]{
+    transform: scale(1);
+    outline: none;
+    margin-right: 7.5px;
+}
+
+.container textarea {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1em;
+}
+
+textarea::placeholder {
+    color: #fff;
+}
+
+.submit-btn {
+    color: #fff;
+    background: linear-gradient(135deg, #c93a3a, #c4188f);
+    border: none;
+    border-radius: 25px;
+    padding: 7.5px;
+    margin-top: 15px;
+    transition: background-color .5s ease-in-out;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #c4188f, #c93a3a);
+}
