@@ -30,9 +30,9 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 | 13  |     Flipping Card               |
 | 14  |     Responsive Footer           |
 | 15  |     Student Registration Form   |
-| 16  |                                 |
-| 17  |                                 |
-| 18  |                                 |
+| 16  |     Card Hover Effect           |
+| 17  |     Personal Portfolio          |
+| 18  |     Registration Form Design    |
 | 19  |                                 |
 | 20  |                                 |
     
