@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.1em;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.blog-container {
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 75px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.blog-item {
+    width: 250px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-item img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 250px;
+}
+
+.description {
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.blog-details {
+    margin: 5px 0;
+    padding: 0 15px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-video,
+.date-blog {
+    font-size: 0.7em;
+}
+
+.author-blog {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.author-blog img {
+    width: 20px;
+}
+
+.author-name {
+    font-size: 0.6em;
+}
+
+.author-name span {
+    font-weight: 600;
+}
