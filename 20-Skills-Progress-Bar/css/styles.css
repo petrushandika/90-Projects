@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #729d3b, #3034a5);
+}
+
+.heading {
+    padding-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.two-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+.images {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    width: 250px;
+    mix-blend-mode: multiply;
+}
+
+.content {
+    width: 50%;
+}
+
+.content ul .bar {
+    height: .5em;
+    list-style: none;
+    position: relative;
+    border-radius: 10px;
+    margin: 3em 0;
+    animation: container;
+    animation-duration: 1s;
+}
+
+.content ul .html {
+    width: 90%;
+    background: linear-gradient(135deg, #c41818, #c93a77);
+}
+
+.content ul .css {
+    width: 75%;
+    background: linear-gradient(135deg, #3a42c9, #18a3c4);
+}
+
+.content ul .javascript {
+    width: 50%;
+    background: linear-gradient(135deg, #c95b3a, #c0c418);
+}
+
+.content ul .bootstrap {
+    width: 60%;
+    background: linear-gradient(135deg, #3ac971, #18c0c4);
+}
+
+.content ul .reactjs {
+    width: 10%;
+    background: linear-gradient(135deg, #3ac9be, #c0c418);
+}
+
+.language {
+    position: absolute;
+    bottom: 0.75em;
+    left: 0;
+}
+
+.percentage {
+    position: absolute;
+    bottom: 0.75em;
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0.5em;
+    }
+
+    .content {
+        width: 90%;
+    }
+}
