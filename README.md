@@ -33,8 +33,8 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 | 16  |     Card Hover Effect           |
 | 17  |     Personal Portfolio          |
 | 18  |     Registration Form Design    |
-| 19  |                                 |
-| 20  |                                 |
+| 19  |     Responsive Blog Page Design |
+| 20  |     Skills Progress Bar         |
     
  </td><td>
 
