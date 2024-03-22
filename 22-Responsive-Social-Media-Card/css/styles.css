@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-profile {
+    font-weight: 400;
+    padding: 50px 0;
+}
+
+.container {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.social-item {
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 2px #9f9f9f;
+    width: 175px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.social-item:hover {
+    box-shadow: 0 0 13px #9f9f9f;
+}
+
+.social-item p {
+    font-size: 0.9em;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.item i {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.name-item {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.fa-facebook-f {
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, #3ac6c9, #3d18c4) 1;
+    background: linear-gradient(135deg, #21dee2, #3d13d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram {
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, #893ab4, #fd1d1d, #fcb045) 1;
+    background: linear-gradient(135deg, #793ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin-in {
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, #2b50de, #21bece) 1;
+    background: linear-gradient(135deg, #1b50de, #21bece);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-github {
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg,#7b7e7e, #0a0a0a) 1;
+    background: linear-gradient(135deg,#7b7e7e, #0a0a0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
