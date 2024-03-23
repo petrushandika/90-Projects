@@ -40,9 +40,9 @@ Participation in ***90 Projects in 90 Days Using HTML, CSS, and JavaScript*** al
 
 | Day |                Name             |
 | --- | :-----------------------------: |    
-| 21  |                                 |
-| 22  |                                 |
-| 23  |                                 |
+| 21  |     Simple Coming Soon Page     |
+| 22  |     Responsive Social Media Card|
+| 23  |     Weather App                 |
 | 24  |                                 |
 | 25  |                                 |
 | 26  |                                 |
