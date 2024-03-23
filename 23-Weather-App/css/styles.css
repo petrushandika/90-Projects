@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.weatherContainer {
+    margin: 2.5rem;
+    padding: 5rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(135deg, #2190dd, #23debc);
+    box-shadow: 0px 0px 20px 0px #18bd9e;
+}
+
+.search {
+    margin: 1.5rem 0;
+}
+
+#weatherForm input {
+    border: none;
+    color: black;
+    outline: none;
+    margin: 0 15px 0;
+    font-size: 1rem;
+    background: transparent;
+}
+
+#weatherForm input[type='text'] {
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+#weatherForm ul li {
+    list-style: none;
+}
+
+.searchBtn {
+    color: #fff;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.searchBtn ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#weatherForm {
+    display: flex;
+    justify-content: space-around;
+}
+
+.appHeading {
+    text-align: center;
+}
+
+#city {
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.weatherContainer img {
+    width: 35%;
+}
+
+#temp {
+    word-spacing: -8px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#temp sup {
+    font-size: 1.5rem;
+}
+
+.weatherMain {
+    font-family: sans-serif;
+}
+
+#todayTime,
+.todayDates {
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+
+/* Utility Classes */
+.d-flex {
+    display: flex;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+/* Media Query for Responsive */
+@media screen and (max-width: 307px) {
+    #weatherForm {
+        flex-direction: column;
+    }
+
+    #weatherForm input {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
