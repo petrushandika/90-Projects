@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(135deg, #23debc, #2770ce);
+}
+
+.logo h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.navbar-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.navbar-menu ul li {
+    width: 100px;
+    padding: 7.5px 2.5px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-menu ul li:hover {
+    background: linear-gradient(135deg, #e1e221, #d61313);
+}
+
+.navbar-menu .toggle {
+    display: none;
+    transition: all .5s linear;
+}
+
+.services {
+    position: relative;
+    transition: all .5s;
+    text-align: start;
+}
+
+.toggle.active {
+    width: 300px;
+    white-space: nowrap;
+    margin: 18px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(135deg, #23debc, #2770ce);
+    border-radius: 5px;
+}
+
+.toggle li:hover {
+    width: auto;
+    background: linear-gradient(135deg, #e1e221, #d61313);
+}
+
+.toggle li {
+    margin: 5px 10px;
+}
